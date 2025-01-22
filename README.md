@@ -192,34 +192,4 @@ We validate that our features add value to users and reduce complexity by discar
 
 Refactoring to make software more testable, maintainable and ultimately extensible should be done with a safety mindset.
 
-This requires analysis to understand the potential impact of changes and for the refactor to be broken down into atomic steps (commit points) so that risks are minimised.
-
-If tests for the affected functionality are missing then these should be written first. If this is not possible given the state of a codebase then a detailed test plan should be created instead to ensure that manual testing can be applied rigorously in a repeatable fashion.
-
-Verify that no regressions have been introduced at every step of the refactor by executing tests and updating tests as you progress. Further exploratory testing may be needed depending on the scale and risk of the refactor.
-
-### Automated Testing
-
-We design our _software systems_ to be testable and we automate the testing of our work at the unit level, at integration points, its functionality and the infrastructure it runs on.
-
-Automated tests are vital for any healthy software project. They reduce the likelihood of defects, assert that assumptions made by developers are not broken and that contracts are not violated when interfaces changes are made.
-
-Automated testing accelerates development by giving developers confidence that their changes have no unexpected side effects. They are a form of executable documentation that describe the software’s expected behavior at different granularities. Adopting a testing mindset forces us to consider our implementation through different lenses and from different perspectives.
-
-### Pattern language
-
-We understand software design patterns to the point where it becomes natural to use them as a shared language. The use of design patterns should be tempered by need and the availability of language idioms to avoid the introduction of complexity.
-
-### Continuous integration & deployments
-
-We integrate continuously, creating rapid feedback cycles that give us confidence in our changes. We aim to be continuously deployable.
-
-### Inclusiveness through accessibility
-
-15% of the global population is affected by a disability. We seek to make our software more accessible to these 1 billion people by considering their needs in our UX designs and our technology choices.
-
----
-
-> If you like our culture, principles, and practices, talk to us `hi@everest.engineering`.
-
-[![License: EverestEngineering](https://img.shields.io/badge/Copyright%20%C2%A9-EVERESTENGINEERING-blue)](https://everest.engineering)
+This requires analysis to understand the p
